@@ -1,0 +1,3 @@
+.u-container {
+  @apply max-w-screen-md mx-auto;
+}

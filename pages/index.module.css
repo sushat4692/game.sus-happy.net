@@ -1,0 +1,25 @@
+.name {
+  @apply text-center;
+  @apply my-24;
+}
+
+.anchor {
+  color: inherit;
+  @apply block no-underline py-6 border-0 border-t border-gray-500 border-dashed;
+}
+
+.anchor:hover {
+  @apply underline;
+}
+
+.anchor:last-child {
+  @apply border-b;
+}
+
+.title {
+  @apply mt-0 mb-2;
+}
+
+.description {
+  @apply mb-0;
+}

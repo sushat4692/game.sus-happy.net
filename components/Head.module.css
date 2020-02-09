@@ -1,0 +1,16 @@
+.header {
+  @apply py-4;
+}
+
+.name {
+  @apply m-0;
+}
+
+.anchor {
+  color: inherit;
+  @apply block no-underline py-6 border-0 border-t border-gray-500 border-dashed;
+}
+
+.anchor:hover {
+  @apply underline;
+}

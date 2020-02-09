@@ -1,0 +1,11 @@
+.info {
+  @apply mb-8 pb-8 border-0 border-b border-gray-500 border-dashed;
+}
+
+.title {
+  @apply text-4xl mb-2;
+}
+
+.time {
+  @apply text-sm block;
+}
