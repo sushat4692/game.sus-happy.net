@@ -1,11 +1,23 @@
 .info {
-  @apply mb-8 pb-8 border-0 border-b border-gray-500 border-dashed;
+  @apply mb-8 pb-6 border-0 border-b border-gray-500 border-dashed;
 }
 
 .title {
-  @apply text-4xl mb-2;
+  line-height: 1.2;
+
+  @apply text-3xl mb-2;
+}
+
+.meta {
+  line-height: 1.4;
+
+  @apply flex flex-wrap items-start justify-start;
+}
+
+.tag {
+  @apply text-sm mr-2 mb-1 py-1 px-2 border border-gray-500 border-solid;
 }
 
 .time {
-  @apply text-sm block;
+  @apply text-sm block py-1 mb-1 border border-transparent border-solid;
 }

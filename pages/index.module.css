@@ -1,10 +1,23 @@
-.name {
+.visual {
   @apply text-center;
-  @apply my-24;
+  @apply mt-16 mb-24;
+}
+
+.visualText {
+  @apply text-3xl m-0;
+}
+
+.visualDesc {
+  @apply mt-1;
+}
+
+.main {
+  @apply mb-8;
 }
 
 .anchor {
   color: inherit;
+
   @apply block no-underline py-6 border-0 border-t border-gray-500 border-dashed;
 }
 
@@ -17,7 +30,23 @@
 }
 
 .title {
+  line-height: 1.2;
+
   @apply mt-0 mb-2;
+}
+
+.meta {
+  line-height: 1.4;
+
+  @apply flex flex-wrap items-start justify-start;
+}
+
+.tag {
+  @apply text-sm mr-2 mb-1 py-1 px-2 border border-gray-500 border-solid;
+}
+
+.time {
+  @apply text-sm block py-1 mb-1 border border-transparent border-solid;
 }
 
 .description {

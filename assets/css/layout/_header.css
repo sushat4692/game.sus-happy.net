@@ -1,0 +1,19 @@
+.l-header {
+  background-color: rgba(255, 255, 255, 0.8);
+
+  @apply py-4 fixed inset-x-0 top-0;
+}
+
+.l-header__name {
+  @apply m-0;
+}
+
+.l-header__anchor {
+  color: inherit;
+
+  @apply no-underline;
+}
+
+.l-header__anchor:hover {
+  @apply underline;
+}

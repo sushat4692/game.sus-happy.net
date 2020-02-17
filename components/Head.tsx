@@ -1,12 +1,10 @@
 import React from "react";
 import Link from "next/link";
 
-import styles from "./Head.module.css";
-
-const Head: React.FC = () => <header className={styles.header}>
+const Head: React.FC = () => <header className="l-header">
   <div className="u-container">
-    <p className={styles.name}>
-      <Link href="/"><a className={styles.anchor}>SUSH-i Game</a></Link>
+    <p className="l-header__name">
+      <Link href="/"><a className="l-header__anchor">SUSH-i Game</a></Link>
     </p>
   </div>
 </header>;
