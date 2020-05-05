@@ -3,6 +3,7 @@ import Link from "next/link";
 import HeadMeta from "../components/HeadMeta";
 import {formatDistanceToNow, parseISO} from "date-fns";
 
+import {MetaData as Setsuna} from "./post/switch-setsuna.mdx";
 import {MetaData as Octopath} from "./post/switch-octopath-traveler.mdx";
 import {MetaData as DQ11S} from "./post/switch-dq11s.mdx";
 import {MetaData as First} from "./post/ds-dq7.mdx";
@@ -12,6 +13,7 @@ import {MetaData as Third} from "./post/ios-ff4ta.mdx";
 import styles from "./index.module.css";
 
 const Posts = [
+  Setsuna,
   Octopath,
   DQ11S,
   First,
